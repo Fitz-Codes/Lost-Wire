@@ -69,13 +69,13 @@ function App() {
           <form onSubmit={handleJoin}>
             <input
               type="text"
-              placeholder="Enter your name..."
+              placeholder="Username..."
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               style={styles.input}
               required
             />
-            <button type="submit" style={styles.button}>Enter Chat Room</button>
+            <button type="sign in" style={styles.button}>Enter Chat Room</button>
           </form>
         </div>
       </div>

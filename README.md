@@ -1,4 +1,4 @@
 # Lost-Wire
 Private decentrelized communication network
 
-Uses MERN
+Built on a MERN format
