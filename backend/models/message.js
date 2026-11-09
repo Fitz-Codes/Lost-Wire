@@ -18,6 +18,10 @@ const messageSchema = new mongoose.Schema({
         type: Date,
         default: Date.now, //Automatically sets to the current date and time
     },
+    target: {
+        type: String,
+        default: null,
+    }
 });
 
 // Compiling the schema into a Mongoose model named "Message"
